@@ -1,4 +1,0 @@
-# Pass the Authorization header through to PHP. Some shared Apache hosts
-# run PHP in a mode that drops this header before
-# PHP ever sees it. This directive is the standard, widely-supported fix.
-CGIPassAuth On
